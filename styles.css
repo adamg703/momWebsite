@@ -18,26 +18,35 @@ HEADER
 *****/
 
 header {
-    background-image: url(images/dock.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: url(images/dock.jpg);
     background-size: cover;
-    height: 40opx;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 610px;
+    color: white;
+    border-bottom: 4px solid #7a5422;
 }
 
-nav-links {
-    width: 100%;
+h1 {
+    font-weight: 900;
 }
 
-nav-links a {
-    width: 15%;
-    display: inline-block;
+.nav-links {
+    height: 100%;
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+}
+
+.nav-links li {
+    width: 25%;
+    float: left;
 }
 
 .site-title {
-    width: 40%;
-    display: inline-block;
+    display: block;
 }
 
 /***********
@@ -45,7 +54,7 @@ MAIN CONTENT
 ***********/
 
 html {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: black;
 }
