@@ -21,14 +21,17 @@ header {
     background-image: url(images/dock.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 73%;
     height: 610px;
     color: white;
     border-bottom: 4px solid #7a5422;
+    position: relative;
 }
 
 h1 {
     font-weight: 900;
+    font-size: 90px;
+    padding-bottom: 160px;
 }
 
 .nav-links {
@@ -38,6 +41,13 @@ h1 {
 
 .nav-links a {
     color: white;
+    font-size: 19px;
+    padding: 0px 15px;
+}
+
+.nav-links a:hover {
+    border-right: 2px solid white;
+    border-left: 2px solid white;
 }
 
 .nav-links li {
@@ -45,8 +55,12 @@ h1 {
     float: left;
 }
 
-.site-title {
+.go-to-bottom {
     display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 10px;
 }
 
 /***********
