@@ -24,14 +24,18 @@ header {
     background-position: 50% 73%;
     height: 610px;
     color: white;
-    border-bottom: 4px solid #7a5422;
     position: relative;
+    text-align: center;
 }
 
 h1 {
     font-weight: 900;
     font-size: 90px;
-    padding-bottom: 160px;
+}
+
+h2 {
+    font-size: 50px;
+    padding: 170px 0px;
 }
 
 .nav-links {
@@ -42,12 +46,13 @@ h1 {
 .nav-links a {
     color: white;
     font-size: 19px;
-    padding: 0px 15px;
+}
+nav {
+    padding-bottom: 30px;
 }
 
 .nav-links a:hover {
-    border-right: 2px solid white;
-    border-left: 2px solid white;
+    border-bottom: 1.5px solid white;
 }
 
 .nav-links li {
@@ -69,7 +74,6 @@ MAIN CONTENT
 
 html {
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
     color: black;
 }
 
